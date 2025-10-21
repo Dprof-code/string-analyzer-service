@@ -129,7 +129,12 @@ exports.createString = async (req, res) => {
           character_frequency_map: getCharFreqMap(stringVal),
         },
       });
-      res.status(201).json(stringAnalysis);
+      res.status(201).json({
+        id: stringAnalysis.id,
+        value: stringAnalysis.value,
+        properties: stringAnalysis.properties,
+        created_at: stringAnalysis.created_at,
+      });
     }
   } catch (error) {
     console.log(error);

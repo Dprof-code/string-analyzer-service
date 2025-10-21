@@ -20,7 +20,7 @@ First, clone the repository and install the dependencies:
 
 🚀 **Clone the Repository:**
 ```bash
-git clone https://github.com/your-username/string-analyzer-service.git
+git clone https://github.com/dprof-code/string-analyzer-service.git
 cd string-analyzer-service
 ```
 
